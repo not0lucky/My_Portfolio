@@ -1,9 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function About() {
   return (
-    <div>About</div>
+    <Countainer>About</Countainer>
   )
 }
+
+const Countainer = styled.div`
+  height: 100vh;
+  width: 100vw;
+`
 
 export default About

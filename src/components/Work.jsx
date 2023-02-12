@@ -1,9 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function Work() {
   return (
-    <div>Work</div>
+    <Countainer>Work</Countainer>
   )
 }
+
+const Countainer = styled.div`
+  height: 100vh;
+  width: 100vw;
+`
 
 export default Work
