@@ -21,12 +21,17 @@ function Hero() {
 const Countainer = styled.div`
   height: 90vh;
   width: 100vw;
+
   
+ 
 `
 
 const Content = styled.div`
-  margin-top: 160px;
-  margin-left: 280px;
+  margin-top: 22vh;
+  margin-left: 15vw;
+ 
+ 
+  
 `
 const Title1 = styled.p`
   font-size: 18px;
@@ -37,7 +42,7 @@ const Title2 = styled.p`
   font-size: 105px;
   font-weight: 700;
   margin-bottom: 10px;
-  letter-spacing: 1px;
+  letter-spacing: 1px ;
 `
 const Title3 = styled.p`
 
