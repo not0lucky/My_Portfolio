@@ -13,8 +13,8 @@ function Work() {
           <Item>
             <Left>
               <img src='assets\StoreCapture.PNG' height='236px' width='474px'/>
-              <Button>Check The Website</Button>
-            <Button2>
+              <Button href='https://comfy-raindrop-0db256.netlify.app/' target='_blank'>Check The Website</Button>
+            <Button2 href='https://github.com/not0lucky/Ecommerce_React_Strapi' target='_blank'>
               <BsGithub style={GitStyle} />
               Check Code
               </Button2>
@@ -28,10 +28,31 @@ function Work() {
                 <Tool>Styled Components</Tool>
                 <Tool>Redux Toolkit</Tool>
                 <Tool>Axios</Tool>
+                <Tool>Strapi</Tool>
               </ToolsDesc>
             </Right>
           </Item>
-          <Item>wok1</Item>
+
+          <Item>
+            <Left>
+              <img src='assets\GamesCapture.PNG' height='236px' width='474px'/>
+              <Button href='https://admirable-alfajores-aca458.netlify.app/' target='_blank'>Check The Website</Button>
+            <Button2 href='https://github.com/not0lucky/Wiki_Games' target='_blank'>
+              <BsGithub style={GitStyle} />
+              Check Code
+              </Button2>
+            </Left>
+            <Right>
+              <WorkTitle>WikiGames</WorkTitle>
+              <WorkDesc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus molestias ipsa at beatae sunt, reiciendis voluptate eum corrupti aliquam temporibus quis incidunt assumenda delectus doloribus eos alias accusamus! Quo, consequuntur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet non at soluta debitis officia, dolores asperiores consequatur. Dignissimos in dolores quaerat voluptatum omnis suscipit magnam inventore rerum! Provident, perferendis placeat.</WorkDesc>
+              <ToolsTitle>Frameworks Used:</ToolsTitle>
+              <ToolsDesc>
+                <Tool>React</Tool>
+                <Tool>Styled Components</Tool>
+                <Tool>Axios</Tool>
+              </ToolsDesc>
+            </Right>
+          </Item>
           <Item>wok1</Item>
         </List>
       </Content>
@@ -102,10 +123,12 @@ const Left = styled.div`
   }
 `
 
-const Button = styled.button`
+const Button = styled.a`
   cursor: pointer;
   margin-top: 30px;
   font-size: 18px;
+  text-align: center;
+  text-decoration: none;
   padding: 20px 40px;
   border-radius: 10px;
   font-weight: 600;
@@ -117,11 +140,13 @@ const Button = styled.button`
     background-color: #1D143C;
   }
 `
-const Button2 = styled.div`
+const Button2 = styled.a`
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  text-decoration: none;
   margin-top: 20px;
   font-size: 18px;
   padding: 20px 40px;

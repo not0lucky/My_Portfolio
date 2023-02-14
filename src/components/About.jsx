@@ -12,7 +12,7 @@ function About() {
           <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cupiditate molestias sit autem saepe quam esse, consequatur dolores! Eum a officiis perspiciatis debitis, necessitatibus similique corrupti non dolor quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorem explicabo sit. Quasi officiis, quis laudantium natus assumenda molestiae voluptatem ipsa veritatis sunt perspiciatis possimus ducimus perferendis nam, reprehenderit exercitationem.</Text>
           <Buttons>
             <Button>Download my CV</Button>
-            <Button2>
+            <Button2 href='https://github.com/not0lucky' target='_blank'>
               <BsGithub style={GitStyle} />
               Check Github
               </Button2>
@@ -79,11 +79,13 @@ const Button = styled.button`
     background-color: #1D143C;
   }
 `
-const Button2 = styled.div`
+const Button2 = styled.a`
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  text-decoration: none;
   margin-top: 80px;
   font-size: 18px;
   padding: 20px 40px;
