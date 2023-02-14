@@ -64,11 +64,13 @@ const Text = styled.p`
   line-height: 1.9rem;
 `
 
-const Button = styled.button`
+const Button = styled.a`
   cursor: pointer;
   margin-top: 80px;
   font-size: 18px;
   padding: 20px 40px;
+  align-items: center;
+  text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
   border: 2px solid #804BF7;
