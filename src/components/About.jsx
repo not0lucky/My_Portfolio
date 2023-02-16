@@ -36,12 +36,24 @@ const Countainer = styled.div`
     background-color: #282355;
     margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+   // margin-bottom: 200px;
+  }
+
+  @media (max-width: 768px) {
+  // margin-bottom: 50%;
+  }
  
 `
 const Content = styled.div`
    margin-top: 15vh;
   margin-left: 15vw;
-
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+        
+  }
 `
 const Title = styled.p`
   font-size: 45px;
@@ -62,6 +74,11 @@ const Text = styled.p`
   font-size: 18px;
   width: 30vw;
   line-height: 1.9rem;
+
+  @media (max-width: 768px) {
+        width: 100vw;
+  }
+
 `
 
 const Button = styled.a`
@@ -70,6 +87,7 @@ const Button = styled.a`
   font-size: 18px;
   padding: 20px 40px;
   align-items: center;
+  text-align: center;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -79,6 +97,10 @@ const Button = styled.a`
   transition: 0.3s ease;
   &:hover{
     background-color: #1D143C;
+  }
+
+  @media (max-width: 768px) {
+        margin-top: 90px;
   }
 `
 const Button2 = styled.a`
@@ -102,11 +124,20 @@ const Button2 = styled.a`
     background-color: #6338c7;
     color: white;
   }
+
+  @media (max-width: 768px) {
+        margin-top: 0px;
+  }
 `
 const Buttons = styled.div`
   display: flex;
   
   gap: 1.6rem;
+
+  @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 2rem;
+  }
 `
 
 export default About

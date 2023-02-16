@@ -22,6 +22,11 @@ const Layout = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
+
+  @media (max-width: 1200px) {
+    width: 100vw;
+    gap: 100px;
+  }
 `
 
 

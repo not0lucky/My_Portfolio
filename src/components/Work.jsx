@@ -35,7 +35,7 @@ function Work() {
 
           <Item>
             <Left>
-              <img src='assets\GamesCapture.PNG' height='236px' width='474px'/>
+              <img src='assets\GamesCapture.PNG'/>
               <Button href='https://admirable-alfajores-aca458.netlify.app/' target='_blank'>Check The Website</Button>
             <Button2 href='https://github.com/not0lucky/Wiki_Games' target='_blank'>
               <BsGithub style={GitStyle} />
@@ -71,6 +71,7 @@ const Countainer = styled.div`
     background-color: #282355;
     margin: 0 auto;
 }
+
 `
 
 const Content = styled.div`
@@ -112,6 +113,24 @@ const Item = styled.div`
   padding-right: 45px;
   border-radius: 15px ;
   //border: 1px solid #00BCFF;
+
+  @media (max-width: 1420px) {
+    
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+        width: 80%;
+        height:100%;
+        gap: 100px;
+
+  }
+  @media (max-width: 768px) {
+        flex-direction: column-reverse;
+        width: 100%;
+        height:100%;
+  }
+
+
 `
 
 const Left = styled.div`
@@ -120,6 +139,27 @@ const Left = styled.div`
   width: 50%;
   img{
     border-radius: 15px;
+     height:236px;
+      width:474px;
+
+      @media (max-width: 1200px) {
+    
+  }
+  @media (max-width: 768px) {
+        height: 118px;
+        width: 237px;
+  }
+  }
+
+  @media (max-width: 1420px) {
+    width: 100%;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
   }
 `
 
@@ -138,6 +178,11 @@ const Button = styled.a`
   transition: 0.3s ease;
   &:hover{
     background-color: #1D143C;
+  }
+
+  @media (max-width: 1420px) {
+    width: 40%;    
+    
   }
 `
 const Button2 = styled.a`
@@ -161,6 +206,11 @@ const Button2 = styled.a`
     background-color: #6338c7;
     color: white;
   }
+
+  @media (max-width: 1420px) {
+    width: 40%;    
+    
+  }
 `
 
 const Right = styled.div`
@@ -168,18 +218,41 @@ const Right = styled.div`
   flex-direction: column;
   width: 50%;
   padding-left: 50px;
+
+  @media (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+        padding-left: 0px;
+  }
+
+  @media (max-width: 1420px) {
+      width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
 `
 const WorkTitle = styled.p`
   font-size: 38px;
   font-weight: 600;
   color: #9b6ef8;
   margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+       text-align: center;
+  }
+  
 `
 
 const WorkDesc = styled.p`
   font-size: 16px;
   line-height: 1.3rem;
   margin-bottom: 30px;
+
+  @media (max-width: 1420px) {
+      width: 60%;
+    
+  }
 
 `
 

@@ -37,12 +37,23 @@ const Title1 = styled.p`
   font-size: 18px;
   color: #9b6ef8;
   font-weight:500;
+
+  @media (max-width: 768px) {
+        font-size: 16px;
+        
+  }
 `
 const Title2 = styled.p`
   font-size: 105px;
   font-weight: 700;
   margin-bottom: 10px;
   letter-spacing: 1px ;
+
+  @media (max-width: 768px) {
+        font-size: 6rem;
+        line-height: 6rem;  
+        margin-bottom: 20px;
+  }
 `
 const Title3 = styled.p`
 
@@ -56,6 +67,10 @@ color: #c9c8c8;
     height:3px;
     background-color: #804BF7;
 }
+
+@media (max-width: 768px) {
+        font-size: 19px;
+  }
 `
 const Button = styled.button`
   cursor: pointer;

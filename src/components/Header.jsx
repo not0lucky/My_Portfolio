@@ -29,7 +29,16 @@ const Countainer = styled.div`
     display: flex;
     justify-content: flex-end;
     
+    @media (max-width: 1200px) {
+    //justify-content: fl;
+    //align-items: center;
+    //justify-content: center;
+  }
     
+  @media (max-width: 768px) {
+      align-items: center;
+    justify-content: center;
+  }
 `
 
 const Links = styled.ul`
@@ -39,6 +48,19 @@ const Links = styled.ul`
     list-style: none;
     margin-right: 100px;
     margin-top: 70px;
+
+    @media (max-width: 1200px) {
+       // width: 100%;
+    //justify-content: space-between;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+      align-items: center;
+    justify-content: flex-end;
+    
+
+  }
 `
 const Title = styled.li`
     font-size: 17px;
@@ -65,6 +87,12 @@ const Title = styled.li`
         transition: 0.3s ease;
 }
     }
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+        margin-left: 1.2rem;
+  }
+
 `
 
 export default Header

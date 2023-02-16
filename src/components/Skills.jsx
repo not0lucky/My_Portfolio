@@ -87,6 +87,7 @@ const Countainer = styled.div`
   height: 100vh;
   width: 100vw;
   margin-bottom: 100px;
+
   &:before {
     content: "";
     display: block;
@@ -95,6 +96,12 @@ const Countainer = styled.div`
     background-color: #282355;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+   //margin-top: 300px;
+  // margin-bottom: 00px;
+  }
+
 `
 const Content = styled.div`
    margin-top: 15vh;
@@ -122,6 +129,12 @@ const Grids = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    
+  }
 `
 const Column = styled.div`
   display: flex;
