@@ -97,9 +97,8 @@ const Countainer = styled.div`
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-   //margin-top: 300px;
-  // margin-bottom: 00px;
+@media (max-width: 1420px) {
+    margin-bottom: 50%;
   }
 
 `
@@ -129,11 +128,11 @@ const Grids = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1420px) {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    
+    align-items: center;
   }
 `
 const Column = styled.div`
@@ -143,6 +142,10 @@ const Column = styled.div`
   padding: 25px 45px;
   border-radius: 15px ;
   //border: 1px solid #00BCFF;
+  @media (max-width: 1420px) {
+    width: fit-content;
+    
+  }
 `
 const ColumnTitle = styled.p`
   font-size: 20px;

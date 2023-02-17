@@ -23,10 +23,12 @@ const Layout = styled.div`
   flex-direction: column;
   width: 100vw;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1420px) {
     width: 100vw;
     gap: 100px;
   }
+
+  
 `
 
 

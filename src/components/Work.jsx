@@ -72,6 +72,14 @@ const Countainer = styled.div`
     margin: 0 auto;
 }
 
+@media (max-width: 1420px) {
+    margin-top: 50%;
+  }
+@media (max-width: 768px) {
+    margin-top: 30vh;
+  }
+
+
 `
 
 const Content = styled.div`
@@ -125,9 +133,10 @@ const Item = styled.div`
 
   }
   @media (max-width: 768px) {
-        flex-direction: column-reverse;
+        
         width: 100%;
         height:100%;
+        gap: 50px;
   }
 
 
@@ -142,9 +151,7 @@ const Left = styled.div`
      height:236px;
       width:474px;
 
-      @media (max-width: 1200px) {
-    
-  }
+      
   @media (max-width: 768px) {
         height: 118px;
         width: 237px;
@@ -154,6 +161,7 @@ const Left = styled.div`
   @media (max-width: 1420px) {
     width: 100%;
     justify-content: center;
+    align-items: center;
   }
 
   @media (max-width: 768px) {
@@ -184,6 +192,10 @@ const Button = styled.a`
     width: 40%;    
     
   }
+  @media (max-width: 768px) {
+        width: 55%;
+        
+  }
 `
 const Button2 = styled.a`
   cursor: pointer;
@@ -209,7 +221,12 @@ const Button2 = styled.a`
 
   @media (max-width: 1420px) {
     width: 40%;    
+    margin-bottom: 10%;
     
+  }
+  @media (max-width: 768px) {
+        width: 55%;
+        margin-bottom: 15%;
   }
 `
 
@@ -251,7 +268,11 @@ const WorkDesc = styled.p`
 
   @media (max-width: 1420px) {
       width: 60%;
-    
+      text-align: center;
+  }
+  @media (max-width: 768px) {
+        text-align: center;
+        width: 100%;
   }
 
 `
