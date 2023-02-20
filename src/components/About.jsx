@@ -81,7 +81,7 @@ const Title = styled.p`
 const Text = styled.p`
   margin-top: 12vh;
   font-size: 20px;
-  width: 30vw;
+  width: 40vw;
   line-height: 2rem;
 
   @media (max-width: 768px) {
