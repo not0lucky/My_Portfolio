@@ -21,7 +21,10 @@ function Work() {
             </Left>
             <Right>
               <WorkTitle>Tech Store</WorkTitle>
-              <WorkDesc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus molestias ipsa at beatae sunt, reiciendis voluptate eum corrupti aliquam temporibus quis incidunt assumenda delectus doloribus eos alias accusamus! Quo, consequuntur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet non at soluta debitis officia, dolores asperiores consequatur. Dignissimos in dolores quaerat voluptatum omnis suscipit magnam inventore rerum! Provident, perferendis placeat.</WorkDesc>
+              <WorkDesc>Tech Store is an online platform that offers a wide range of tech
+widgets built using the React.js framework and styled components.
+The data is managed using the headless CMS service Strapi.
+</WorkDesc>
               <ToolsTitle>Frameworks Used:</ToolsTitle>
               <ToolsDesc>
                 <Tool>React</Tool>
@@ -44,7 +47,9 @@ function Work() {
             </Left>
             <Right>
               <WorkTitle>WikiGames</WorkTitle>
-              <WorkDesc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus molestias ipsa at beatae sunt, reiciendis voluptate eum corrupti aliquam temporibus quis incidunt assumenda delectus doloribus eos alias accusamus! Quo, consequuntur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet non at soluta debitis officia, dolores asperiores consequatur. Dignissimos in dolores quaerat voluptatum omnis suscipit magnam inventore rerum! Provident, perferendis placeat.</WorkDesc>
+              <WorkDesc>WikiGames is a website that provides informations about videos
+games. Built using React and styled components. The website's
+data is fetched from the RAWG.io API</WorkDesc>
               <ToolsTitle>Frameworks Used:</ToolsTitle>
               <ToolsDesc>
                 <Tool>React</Tool>
@@ -53,7 +58,33 @@ function Work() {
               </ToolsDesc>
             </Right>
           </Item>
-          <Item>wok1</Item>
+          
+          <Item>
+            <Left>
+              <img src='assets\ItriCapture.PNG'/>
+              <Button href='https://admirable-bunny-9fa1d5.netlify.app/' target='_blank'>Check The Website</Button>
+            <Button2 href='https://github.com/not0lucky/ItriMusic_Player' target='_blank'>
+              <BsGithub style={GitStyle} />
+              Check Code
+              </Button2>
+            </Left>
+            <Right>
+              <WorkTitle>Itri Music Production</WorkTitle>
+              <WorkDesc>The music player website has been developed for Itri Music
+Production that produces amazigh music. the website is built using
+React and styled components. Albums are dynamically fetched
+from the producer's youtube channel using Youtube API. Additionally, the site utilizes the React-Player library to stream
+videos .
+</WorkDesc>
+              <ToolsTitle>Frameworks Used:</ToolsTitle>
+              <ToolsDesc>
+                <Tool>React</Tool>
+                <Tool>Styled Components</Tool>
+                <Tool>Youtube API</Tool>
+                <Tool>React-Player</Tool>
+              </ToolsDesc>
+            </Right>
+          </Item>
         </List>
       </Content>
     </Countainer>
@@ -115,12 +146,11 @@ const Item = styled.div`
   width: 90%;
   height: 60vh;
   background-color: #221646;
-  //padding: 35px 45px;
   padding-top: 45px;
   padding-left: 55px;
   padding-right: 45px;
+  padding-bottom: 30px;
   border-radius: 15px ;
-  //border: 1px solid #00BCFF;
 
   @media (max-width: 1420px) {
     

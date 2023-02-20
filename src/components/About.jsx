@@ -7,19 +7,24 @@ function About() {
 
   return (
     <Countainer>
+      <Section>
+
+      
       <Content>
           <Title>Who am I ? </Title>
-          <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cupiditate molestias sit autem saepe quam esse, consequatur dolores! Eum a officiis perspiciatis debitis, necessitatibus similique corrupti non dolor quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorem explicabo sit. Quasi officiis, quis laudantium natus assumenda molestiae voluptatem ipsa veritatis sunt perspiciatis possimus ducimus perferendis nam, reprehenderit exercitationem.</Text>
+          <Text>
+            I am a 21-year-old front end developer from Morocco, and I've been passionate about coding since I was 16 years old. I've been learning coding for about three years now, and it's been an incredible journey so far. I find joy in solving problems, discovering and exploring new things, and expressing my creativity through my work.  I am currently studying software engineering at ALX Africa, where I hope to gain new skills and grow as a developer.
+          </Text>
           <Buttons>
-            <Button>Download my CV</Button>
+            <Button href="assets\Anir Agram - Resume.pdf" download="Anir Agram - Resume">Download my Resume</Button>
             <Button2 href='https://github.com/not0lucky' target='_blank'>
               <BsGithub style={GitStyle} />
               Check Github
               </Button2>
           </Buttons>
-          
-
       </Content>
+      
+      </Section>
     </Countainer>
   )
 }
@@ -55,6 +60,10 @@ const Content = styled.div`
         
   }
 `
+const Section = styled.div`
+  display: flex;
+`
+
 const Title = styled.p`
   font-size: 45px;
   color: #9b6ef8;
@@ -71,9 +80,9 @@ const Title = styled.p`
 `
 const Text = styled.p`
   margin-top: 12vh;
-  font-size: 18px;
+  font-size: 20px;
   width: 30vw;
-  line-height: 1.9rem;
+  line-height: 2rem;
 
   @media (max-width: 768px) {
         width: 100vw;
