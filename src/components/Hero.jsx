@@ -10,7 +10,7 @@ function Hero() {
         <Title1>Hi, My name is</Title1>
         <Title2>Anir Agram</Title2>
         <Title3>and I'm a Front End Developer and a Student.</Title3>
-        <Button>Check My Projects</Button>
+        <Button><a href="#work">Check My Projects</a></Button>
       </Content>
     </Countainer>
     </>
@@ -85,6 +85,11 @@ const Button = styled.button`
   transition: 0.3s ease;
   &:hover{
     background-color: #1D143C;
+  }
+
+  a{
+    text-decoration: none;
+    color: #804BF7;
   }
 `
 
