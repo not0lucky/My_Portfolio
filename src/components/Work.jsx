@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Contact from './Contact';
 import { BsGithub } from 'react-icons/bs';
 
 function Work() {
@@ -86,6 +87,7 @@ videos .
             </Right>
           </Item>
         </List>
+        <Contact/>
       </Content>
     </Countainer>
   )

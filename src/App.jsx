@@ -1,5 +1,4 @@
-import FullPageScroll from "./FullPageScroll"
-import { About, Header, Hero, Skills, Work } from "./components"
+import { About, Header, Hero, Skills, Work,Contact } from "./components"
 import styled from "styled-components"
 
 function App() {
@@ -12,6 +11,7 @@ function App() {
       <About/>
       <Skills/>
       <Work/>
+      
     </Layout>
         
     </>
