@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 function Skills() {
   return (
-    <Countainer>
+    <Countainer id="skills">
       <Content>
         <Title>My Skills</Title>
         <Grids>

@@ -6,7 +6,7 @@ function About() {
   const GitStyle = { fontSize: "24px" }
 
   return (
-    <Countainer>
+    <Countainer id="about">
       <Section>
 
       

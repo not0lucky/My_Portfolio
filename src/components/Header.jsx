@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-scroll'
 import styled from 'styled-components'
 
 function Header() {
@@ -8,16 +7,16 @@ function Header() {
         <Countainer>
             <Links>
                 <Title>
-                    <Link>About</Link>
+                    <Link href="#about">About</Link>
                 </Title>
                 <Title>
-                    <Link>Skills</Link>
+                    <Link href="#skills">Skills</Link>
                 </Title>
                 <Title>
-                    <Link>Work</Link>
+                    <Link href="#work">Work</Link>
                 </Title> 
                 <Title>
-                    <Link>Contact</Link>
+                    <Link href="#contact">Contact</Link>
                 </Title> 
             </Links>
         </Countainer>
@@ -61,6 +60,11 @@ const Links = styled.ul`
     
 
   }
+`
+const Link = styled.a`
+  cursor: pointer;
+  text-decoration: none;
+  color: #cbcacafb;
 `
 const Title = styled.li`
     font-size: 17px;

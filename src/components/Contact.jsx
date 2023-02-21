@@ -7,7 +7,7 @@ function Contact() {
      const MailStyle = { fontSize: "30px", marginRight:"5px",color:"#9b6ef8" }
      const PhoneStyle = { fontSize: "27px", marginRight:"8px",color:"#9b6ef8" }
   return (
-    <Countainer>
+    <Countainer id="contact">
         <Content>
             <Title>Contact</Title>
             <Text>

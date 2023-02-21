@@ -7,7 +7,7 @@ function Work() {
   const GitStyle = { fontSize: "24px" }
 
   return (
-    <Countainer>
+    <Countainer id="work">
       <Content>
         <Title>My Work</Title>
         <List>

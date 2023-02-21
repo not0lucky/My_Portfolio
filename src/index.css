@@ -2,6 +2,9 @@ body{
   background-color: #110F26;
   color: white;
 }
+html{
+  scroll-behavior: smooth;
+}
 *{
   padding: 0;
   margin: 0;
