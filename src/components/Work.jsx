@@ -13,18 +13,18 @@ function Work() {
         <List>
           <Item>
             <Left>
-              <img src='assets\StoreCapture.PNG' height='236px' width='474px'/>
-              <Button href='https://comfy-raindrop-0db256.netlify.app/' target='_blank'>Check The Website</Button>
-            <Button2 href='https://github.com/not0lucky/Ecommerce_React_Strapi' target='_blank'>
+              <img src='assets\image.png'/>
+              <Button href='https://bright-zuccutto-cf01f1.netlify.app/' target='_blank'>Check The Website</Button>
+            <Button2 href='https://github.com/not0lucky/Ecommerce_Portfolio' target='_blank'>
               <BsGithub style={GitStyle} />
               Check Code
               </Button2>
             </Left>
             <Right>
-              <WorkTitle>Tech Store</WorkTitle>
-              <WorkDesc>Tech Store is an online platform that offers a wide range of tech
-widgets built using the React.js framework and styled components.
-The data is managed using the headless CMS service Strapi.
+              <WorkTitle>My Store</WorkTitle>
+              <WorkDesc>My Store is an online platform that offers a wide range of everyday
+gadgets built using the React.js framework and styled components.
+The data is fetched with an api, and uses for redux to manage the shopping cart.
 </WorkDesc>
               <ToolsTitle>Frameworks Used:</ToolsTitle>
               <ToolsDesc>
@@ -32,7 +32,6 @@ The data is managed using the headless CMS service Strapi.
                 <Tool>Styled Components</Tool>
                 <Tool>Redux Toolkit</Tool>
                 <Tool>Axios</Tool>
-                <Tool>Strapi</Tool>
               </ToolsDesc>
             </Right>
           </Item>

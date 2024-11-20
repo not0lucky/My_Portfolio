@@ -13,7 +13,7 @@ function About() {
       <Content>
           <Title>Who am I ? </Title>
           <Text>
-            I am a 21-year-old front end developer from Morocco, and I've been passionate about coding since I was 16 years old. I've been learning coding for about three years now, and it's been an incredible journey so far. I find joy in solving problems, discovering and exploring new things, and expressing my creativity through my work.  I am currently studying software engineering at ALX Africa, where I hope to gain new skills and grow as a developer.
+            I am a 23-year-old front end developer from Morocco, and I've been passionate about coding since I was 16 years old. I've been learning coding for about three years now, and it's been an incredible journey so far. I find joy in solving problems, discovering and exploring new things, and expressing my creativity through my work.  I am currently studying software engineering at ALX Africa, where I hope to gain new skills and grow as a developer.
           </Text>
           <Buttons>
             <Button href="assets\Anir Agram - Resume.pdf" download="Anir Agram - Resume">Download my Resume</Button>
